@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: rgb(55, 179, 137);
+  padding: 70px 0;
+}
+
+.footer-email-btn {
+  width: 70px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(231, 96, 46);
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.footer-email ::placeholder {
+  color: lightgray;
+}
+
+.footer-email {
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.footer-img {
+  width: 150px;
+}
+
+hr {
+  color: orangered;
+  border: 0.2px solid;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h4,
+h5 {
+  margin-bottom: 15px;
+}
+
+.footer-col-info a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-col {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer-col {
+    flex-direction: column;
+    padding: auto;
+  }
+
+  .footer-email-btn {
+    width: 180px;
+  }
+
+  .footer-email {
+    width: 180px;
+  }
+
+  .newsletter-form {
+    display: grid;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+}
